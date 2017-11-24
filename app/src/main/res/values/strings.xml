@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">遥控小车</string>
+    <string name="welcome_text">
+        Welcome to
+    </string>
+    <string name="Gravity_button">重力传感器控制</string>
+    <string name="Accelerometer_button">重力感应控制</string>
+    <string name="Joystick_button">操纵杆控制</string>
+    <string name="Guesture_button">手势控制</string>
+    <string name="About_button">关于</string>
+    <string name="stop_button">Stop</string>
+    <string name="start_toast">Start!</string>
+    <string name="stop_toast">Stop</string>
+    <string name="textView1">X</string>
+    <string name="textView2">Y</string>
+    <string name="textView3">Z</string>
+    <string name="textView4">F</string>
+    <string name="AXView1">AX</string>
+    <string name="AYView2">AY</string>
+    <string name="AZView3">AZ</string>
+    <string name="Version">Version1.0</string>
+
+</resources>

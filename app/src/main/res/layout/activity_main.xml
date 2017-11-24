@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Accelerometer_button"
+        android:text="@string/Accelerometer_button"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:layout_marginTop="-30dp"
+        android:fontFamily="sans-serif-medium"
+        android:typeface="normal"
+        android:lineSpacingExtra="12sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/joystick_button"
+        android:text="@string/Joystick_button"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:typeface="normal"
+        android:lineSpacingExtra="10sp"
+        android:textStyle="normal|bold"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/Guesture_button"
+        android:text="@string/Guesture_button"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:typeface="normal"
+        android:lineSpacingExtra="12sp"
+        android:textStyle="normal|bold"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/About_button"
+        android:text="@string/About_button"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:typeface="normal"
+        android:lineSpacingExtra="12sp"
+        android:textStyle="normal|bold"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

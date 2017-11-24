@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_accelerometer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yshe.carcontrol.AccelerometerActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="90dp"
+            android:layout_alignParentTop="true"
+            android:padding="24dp"
+            android:text="@string/textView4"
+            android:textStyle="normal|bold"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/AXView1"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/AYView2"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="24dp"
+                android:text="@string/AZView3"
+                android:textSize="12sp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+         <Button
+             android:id="@+id/stop_button"
+             android:layout_height="wrap_content"
+             android:text="Return"
+             android:background="@android:drawable/ic_notification_overlay"
+             android:layout_marginTop="40dp"
+             android:layout_width="101dp"
+             android:layout_weight="0.14"
+             android:textStyle="normal|bold"
+             android:textSize="17sp" />
+    </LinearLayout>
+
+</ScrollView>
+
